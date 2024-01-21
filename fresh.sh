@@ -17,7 +17,7 @@ fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -s .zshrc $HOME/.zshrc
+cp .zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
 brew update
@@ -30,4 +30,5 @@ brew bundle --file ./Brewfile
 mkdir $HOME/Sites
 
 # Symlink the Mackup config file to the home directory
-ln -sf ./.mackup.cfg $HOME/.mackup.cfg
+rm -rf $HOME/.mackup.cfg
+cp ./.mackup.cfg $HOME/.mackup.cfg
