@@ -44,3 +44,4 @@ cask 'auth'
 
 # Fonts
 cask 'font-fira-code'
+cask 'font-jetbrains-mono'
