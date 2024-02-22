@@ -28,3 +28,4 @@ alias wip="commit wip"
 # Customize
 alias python3='/usr/local/bin/python3'
 alias python='/usr/local/bin/python3'
+alias bundle='/usr/local/opt/ruby/bin/bundle'
