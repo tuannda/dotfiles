@@ -42,6 +42,7 @@ cask 'visual-studio-code'
 cask 'google-chrome'
 cask 'auth'
 cask 'fork'
+cask 'postman'
 
 # Fonts
 cask 'font-fira-code'
