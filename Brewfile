@@ -24,6 +24,7 @@ brew 'python@3.12'
 brew 'mackup'
 brew 'httpie'
 brew 'jq'
+brew 'nvm'
 
 # Apps
 cask 'docker'
